@@ -11,6 +11,7 @@ EGIT_REPO_URI="https://github.com/mantrasultry/dwm.git"
 
 LICENSE="MIT"
 SLOT="0"
+KEYWORDS="amd64"
 
 RDEPEND="
 	media-libs/fontconfig
