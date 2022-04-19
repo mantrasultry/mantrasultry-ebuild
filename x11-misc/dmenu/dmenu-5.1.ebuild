@@ -18,6 +18,7 @@ RDEPEND="
 	x11-libs/libXft
 	x11-libs/libXinerama
 "
+
 DEPEND="${RDEPEND}
 	x11-base/xorg-proto
 "
@@ -41,7 +42,7 @@ src_compile() {
 		"FREETYPEINC=$( $(tc-getPKG_CONFIG) --cflags x11 fontconfig xft 2>/dev/null )" \
 		"FREETYPELIBS=$( $(tc-getPKG_CONFIG) --libs x11 fontconfig xft 2>/dev/null )" \
 		"X11INC=$( $(tc-getPKG_CONFIG) --cflags x11 2>/dev/null )" \
-		"X11LIB=$( $(tc-getPKG_CONFIG) --libs x11 2>/dev/null )" \
+		"X11LIB=$( $(tc-getPKG_CONFIG) --libs x11 2>/dev/null )"
 }
 
 src_install() {
