@@ -1,0 +1,14 @@
+<pkgmetadata>
+    <maintainer type="person">
+        <email>maciek54134@tutanota.com</email>
+        <name>mantrasultry</name>
+    </maintainer>
+    <upstream>
+        <maintainer>
+            <name>torrinfail</name>
+        </maintainer>
+        <bugs-to>https://github.com/torrinfail/dwmblocks/issues</bugs-to>
+        <remote-id type="github">torrinfail/dwmblocks</remote-id>
+    </upstream>
+    <longdescription lang="en"> Modular status bar for dwm written in c. </longdescription>
+</pkgmetadata>
